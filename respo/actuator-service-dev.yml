@@ -33,7 +33,7 @@ spring:
     maxOpenPreparedStatements: 20
 
   redis:
-    host: 10.13.98.58
+    host: 10.13.98.57
     port: 6379
     pool:
       max-idle: 100

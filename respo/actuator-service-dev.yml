@@ -14,7 +14,7 @@ ribbon:
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/spring-cloud?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
+    url: jdbc:mysql://localhost:3306/spinrgconfig?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
     username: root
     password: root
     type: com.alibaba.druid.pool.DruidDataSource

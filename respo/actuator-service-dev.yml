@@ -40,6 +40,7 @@ spring:
       max-active: 100
       max-wait: 10000
 
+
   rabbitmq:
     host: 10.13.98.57:5672
     username: admin
@@ -51,5 +52,9 @@ mybatis:
   mapperLocations: classpath:com/actuator/mapper/xml/**/*Mapper.xml
   typeAliasesPackage: com.actuator.entity.**
   configLocation: classpath:/META-INF/mybatis/mybatis-config.xml
+management:
+  port: 9001
+  security:
+    enabled: false
 
 
